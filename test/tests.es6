@@ -4,7 +4,7 @@ const Token = artifacts.require('Token.sol');
 const { makeMintingMessage32, manuallySign, splitSignature } = require('../scripts/lib/helperfunctions');
 let BN = web3.utils.BN;
 
-contract('Test Contracts', (accounts) => {
+contract('Test ERC20 Contract', (accounts) => {
   let owner1  = accounts[0];
   let owner2  = accounts[1];
   let owner3  = accounts[2];
